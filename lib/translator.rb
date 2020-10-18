@@ -20,8 +20,6 @@ def get_english_meaning(path,emoticon)
    value[:english]
    value[:japanese]
   binding.pry
-
-    end
   end
   return "Sorry, that emoticon was not found"
 end
