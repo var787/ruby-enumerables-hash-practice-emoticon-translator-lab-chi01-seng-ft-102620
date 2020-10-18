@@ -9,8 +9,8 @@ def load_library(path)
       jpn=value[1]
       #binding.pry
 
-      my_hash[:english]=eng
-      my_hash[:japanese]=jpn
+      my_hash["key"][:english]=eng
+      my_hash{"key"}[:japanese]=jpn
       my_hash
         binding.pry
 end
