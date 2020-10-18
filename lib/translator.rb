@@ -9,6 +9,7 @@ def load_library(path)
     emoticon_lib.each do |key,value|
 
 
-    binding.pry
 
+    binding.pry
+end
   end
