@@ -12,7 +12,5 @@ def load_library(path)
       new_hash[key][:japanese]=jpn
 new_hash
 
-
-    binding.pry
 end
   end
