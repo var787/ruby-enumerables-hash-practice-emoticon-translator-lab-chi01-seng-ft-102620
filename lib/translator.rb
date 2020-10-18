@@ -8,8 +8,8 @@ def load_library(path)
       eng=value[0]
       jpn=value[1]
       new_hash[key]={}
-      new_hash[:english]=eng
-      new_hash[:japanese]=jpn
+      new_hash[key][:english]=eng
+      new_hash[key][:japanese]=jpn
 new_hash
 
 
