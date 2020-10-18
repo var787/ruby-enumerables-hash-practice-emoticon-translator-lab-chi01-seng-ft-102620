@@ -20,7 +20,7 @@ def get_english_meaning(path,emoticon)
    english=value[:english]
    japanese=value[:japanese]
    if emoticon==japanese
-     return english
+     return key
    end
   end
   return "Sorry, that emoticon was not found"
