@@ -21,7 +21,7 @@ def get_english_meaning(path,emoticon)
    japanese=value[:japanese]
    if emoticon==japanese
      return english
-  binding.pry
+   end
   end
   return "Sorry, that emoticon was not found"
 end
