@@ -7,6 +7,8 @@ def load_library(path)
     new_hash={}
     new_hash=emoticon_names
     emoticon_lib.each do |key,value|
+      eng=value[0]
+      jpn=value[1]
 
 
 
