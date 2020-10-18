@@ -6,7 +6,7 @@ def load_library(path)
     emoticon_names=emoticon_lib.keys
     new_hash={}
     [emoticon_names]
-    
+
 
     binding.pry
 
