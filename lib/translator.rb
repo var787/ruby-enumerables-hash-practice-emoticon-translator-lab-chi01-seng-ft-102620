@@ -11,7 +11,7 @@ def load_library(path)
       #binding.pry
 
       my_hash[:english]=eng
-      my_hash[[:japanese]=jpn
+      my_hash[:japanese]=jpn
       my_hash
         binding.pry
 end
