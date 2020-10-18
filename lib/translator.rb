@@ -19,6 +19,7 @@ def get_english_meaning(path,emoticon)
       binding.pry
 if value[:english]
   return value[:japanese]
+  binding.pry
 
     end
   end
