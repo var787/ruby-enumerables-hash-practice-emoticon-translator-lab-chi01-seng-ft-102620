@@ -21,6 +21,6 @@ if value[:english]==emoticon
 
     end
   end
-  binding.pry
+  #binding.pry
   return "Sorry, that emoticon was not found"
 end
